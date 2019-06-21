@@ -12,7 +12,7 @@ provider "aws" {
 instance_port     = 80
     instance_protocol = "http"
     lb_port           = 80
-    lb_protocol       = "http"
+       lb_protocol       = "http"
   }
 
   health_check {
